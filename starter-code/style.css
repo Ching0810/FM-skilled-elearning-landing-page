@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+button {
+  all: unset;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #83869A;
+}
+.container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  padding: 16px;
+  background-color: #FFFFFF;
+}
+.container nav .nav-name {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #13183F;
+}
+.container nav .nav-btn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #13183F;
+  width: 140px;
+  height: 48px;
+  text-align: center;
+  border-radius: 24px;
+}
+.container nav .nav-btn:hover {
+  opacity: 0.7;
+}
+.container .page {
+  width: 100%;
+  background: linear-gradient(0deg, #efeffa 0%, #FFFFFF 100%);
+  padding: 16px;
+}
+.container .page main {
+  display: flex;
+  flex-direction: column;
+}
+.container .page main h1 {
+  color: #13183F;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.container .page main p {
+  color: #83869A;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 1rem;
+}
+.container .page main button {
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 167px;
+  height: 56px;
+  text-align: center;
+  border-radius: 28px;
+  background: linear-gradient(0deg, #F02AA6 0%, #FF6F48 100%);
+  margin-bottom: 1rem;
+}
+.container .page main button:hover {
+  opacity: 0.7;
+}
+.container .page main .main-img {
+  background-image: url(./assets/image-hero-mobile.png);
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+.container .page .cards .intro {
+  background: linear-gradient(0deg, #F02AA6 0%, #FF6F48 100%);
+  height: 120px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 3.5rem;
+}
+.container .page .cards .intro p {
+  font-size: 24px;
+  padding: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.container .page .cards .card {
+  height: 255px;
+  padding: 2rem;
+  position: relative;
+  background: #FFFFFF;
+  margin: 3rem 0;
+  border-radius: 10px;
+}
+.container .page .cards .card .card-img {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  top: -28px;
+  background: linear-gradient(0deg, #F02AA6 0%, #FF6F48 100%);
+}
+.container .page .cards .card .card-img.animation {
+  background-image: url(./assets/icon-animation.svg);
+  background-size: cover;
+  background-position: center;
+}
+.container .page .cards .card .card-img.design {
+  background-image: url(./assets/icon-design.svg);
+  background-size: cover;
+  background-position: center;
+}
+.container .page .cards .card .card-img.photo {
+  background-image: url(./assets/icon-photography.svg);
+  background-size: cover;
+  background-position: center;
+}
+.container .page .cards .card .card-img.crypto {
+  background-image: url(./assets/icon-crypto.svg);
+  background-size: cover;
+  background-position: center;
+}
+.container .page .cards .card .card-img.business {
+  background-image: url(./assets/icon-business.svg);
+  background-size: cover;
+  background-position: center;
+}
+.container .page .cards .card h3 {
+  font-size: 20px;
+  color: #13183F;
+  font-weight: bolder;
+  padding: 1rem 0 1.5rem 0;
+}
+.container .page .cards .card p {
+  font-size: 16px;
+  color: #83869A;
+  font-weight: normal;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.container .page .cards .card button {
+  color: #F74780;
+  font-size: 18px;
+  font-weight: bold;
+}
+.container .page .cards .card button:hover {
+  opacity: 0.7;
+}
+.container footer {
+  width: 100%;
+  height: 120px;
+  background: #13183F;
+  color: #FFFFFF;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container footer .footer-name {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-left: 1rem;
+}
+.container footer button {
+  width: 140px;
+  height: 48px;
+  border-radius: 24px;
+  background: linear-gradient(0deg, #F02AA6 0%, #4851FF 100%);
+  text-align: center;
+  margin-right: 1rem;
+}
+.container footer button:hover {
+  background: linear-gradient(0deg, #e58dc4 0%, #7d82e6 100%);
+}/*# sourceMappingURL=style.css.map */

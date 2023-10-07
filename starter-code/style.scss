@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap');
+$darkBlue: #666CA3;
+$deepBlue: #13183F;
+$gray: #83869A;
+$deepPink: #F74780;
+$lightPink: #FFA7C3;
+$white: #FFFFFF;
+$pink: #F02AA6;
+$lightBlue: #4851FF;
+$pToOrange: linear-gradient(0deg, #F02AA6 0%, #FF6F48 100%);
+$pToBlue: linear-gradient(0deg, #F02AA6 0%, #4851FF 100%);
+
+@mixin background-icon($image) {
+  background-image: url(./assets/#{$image}.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+button {
+  all: unset
+}
+
+.container {
+  // width: 100vw;
+  // min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: $gray;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 16px;
+    background-color: $white;
+    .nav-name {
+      font-size: 28px;
+      font-weight: bolder;
+      color: $deepBlue;
+    }
+    .nav-btn {
+      font-size: 16px;
+      font-weight: bold;
+      color: $white;
+      background-color: $deepBlue;
+      width: 140px;
+      height: 48px;
+      text-align: center;
+      border-radius: 24px;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  .page {
+    width: 100%;
+    background: linear-gradient(
+      0deg,
+      #efeffa 0%,
+      $white 100%
+    );
+    padding: 16px;
+    main {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        color: $deepBlue;
+        font-size: 36px;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+      }
+      p {
+        color: $gray;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 1rem;
+      }
+      button {
+        color: $white;
+        font-size: 16px;
+        width: 167px;
+        height: 56px;
+        text-align: center;
+        border-radius: 28px;
+        background: $pToOrange;
+        margin-bottom: 1rem;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+      .main-img {
+        background-image: url(./assets/image-hero-mobile.png);
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    .cards {
+      .intro {
+        background: $pToOrange;
+        height: 120px;
+        color: $white;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        margin-bottom: 3.5rem;
+        p {
+          font-size: 24px;
+          padding: 1.5rem;
+          font-weight: 700;
+          letter-spacing: 1px;
+        }
+      }
+      .card {
+        height: 255px;
+        padding: 2rem;
+        position: relative;
+        background: $white;
+        margin: 3rem 0;
+        border-radius: 10px;
+        .card-img {
+          position: absolute;
+          height: 56px;
+          width: 56px;
+          border-radius: 50%;
+          top: -28px;
+          background: $pToOrange;
+          &.animation {
+            @include background-icon('icon-animation');
+          }
+          &.design {
+            @include background-icon('icon-design');
+          }
+          &.photo {
+            @include background-icon('icon-photography');
+          }
+          &.crypto {
+            @include background-icon('icon-crypto');
+          }
+          &.business {
+            @include background-icon('icon-business');
+          }
+        }
+        h3 {
+          font-size: 20px;
+          color: $deepBlue;
+          font-weight: bolder;
+          padding: 1rem 0 1.5rem 0;
+        }
+        p {
+          font-size: 16px;
+          color: $gray;
+          font-weight: normal;
+          line-height: 1.5rem;
+          margin-bottom: 1.5rem;
+        }
+        button {
+          color: $deepPink;
+          font-size: 18px;
+          font-weight: bold;
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    width: 100%;
+    height: 120px;
+    background: $deepBlue;
+    color: $white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-name {
+      font-size: 28px;
+      font-weight: bolder;
+      margin-left: 1rem;
+    }
+    button {
+      width: 140px;
+      height: 48px;
+      border-radius: 24px;
+      background: $pToBlue;
+      text-align: center;
+      margin-right: 1rem;
+      &:hover {
+        background: linear-gradient(
+          0deg,
+          #e58dc4 0%,
+          #7d82e6 100%
+        );
+      }
+    }
+  }
+}
