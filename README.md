@@ -29,13 +29,17 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile mode:
+Mobile mode (20231007):
 <br/>
-<img src='./srceenshot/Screenshot 2023-10-07 at 18.52.10.png'>
+<img src='./srceenshot/Screenshot 2023-10-09 at 15.43.17.png'>
 <br/>
 <img src='./srceenshot/Screenshot 2023-10-07 at 18.52.30.png'>
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+Tablet mode (20231009):
+<img src='./srceenshot/Screenshot 2023-10-09 at 15.46.50.png'>
+<br/>
+<img src='./srceenshot/Screenshot 2023-10-09 at 15.47.09.png'>
+
 
 ### Links
 
