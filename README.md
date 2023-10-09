@@ -60,7 +60,8 @@ Desktop mode (20231009):
 - Semantic HTML5 markup
 - CSS custom properties
 - SCSS custom properties
-- Flexbox
+- Flexbox & grid system
+- Positoin system
 - Mobile-first workflow
 
 ### What I learned
