@@ -31,14 +31,15 @@ Users should be able to:
 
 Mobile mode (20231007):
 <br/>
-<img src='./srceenshot/Screenshot 2023-10-09 at 15.43.17.png'>
+<img src='./srceenshot/Screenshot 2023-10-09 at 15.43.17.png' width=250px>
 <br/>
-<img src='./srceenshot/Screenshot 2023-10-07 at 18.52.30.png'>
+<img src='./srceenshot/Screenshot 2023-10-07 at 18.52.30.png' width=250px>
 
 Tablet mode (20231009):
-<img src='./srceenshot/Screenshot 2023-10-09 at 15.46.50.png'>
 <br/>
-<img src='./srceenshot/Screenshot 2023-10-09 at 15.47.09.png'>
+<img src='./srceenshot/Screenshot 2023-10-09 at 15.46.50.png' width=450px>
+<br/>
+<img src='./srceenshot/Screenshot 2023-10-09 at 15.47.09.png' width=450px>
 
 
 ### Links
