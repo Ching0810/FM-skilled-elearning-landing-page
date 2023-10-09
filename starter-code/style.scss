@@ -29,7 +29,7 @@ button {
 }
 
 .container {
-  // width: 100vw;
+  width: 100vw;
   // min-height: 100vh;
   display: flex;
   align-items: center;
@@ -177,6 +177,8 @@ button {
           color: $deepPink;
           font-size: 18px;
           font-weight: bold;
+          position: absolute;
+          bottom: 3rem;
           &:hover {
             opacity: 0.7;
           }
@@ -256,6 +258,84 @@ button {
       }
       .footer-btn {
         margin-right: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    nav {
+      padding: 33px 165px 24px 165px;
+      .nav-btn {
+        font-size: 18px;
+        height: 56px;
+        width: 167px;
+        border-radius: 28px;
+      }
+    }
+    .page {
+      padding: 24px 165px 168px 165px;
+      main {
+        height: 750px;
+        .main-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 40%;
+          h1 {
+            font-size: 52px;
+            margin-bottom: 2rem;
+          }
+          p {
+            color: $deepBlue;
+            font-weight: bold;
+            margin-bottom: 3rem;
+          }
+          button {
+            height: 63px;
+            border-radius: 31.5px;
+          }
+        }
+        .main-img {
+          background-image: url('./assets/image-hero-desktop@2x.png');
+          width: 990px;
+          height: 990px;
+          position: absolute;
+          right: -450px;
+          top: -250px;
+        }
+      }
+      .cards {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        .intro {
+          padding: 40px 30px;
+          height: 320px;
+          p {
+            font-size: 30px;
+          }
+        }
+        .card {
+          height: 320px;
+          h3 {
+            font-size: 24px;
+            padding: 2rem 0;
+          }
+          p {
+            font-size: 18px;
+            line-height: 1.8rem;
+          }
+        }
+      }
+    }
+    footer {
+      .footer-name {
+        margin-left: 165px;
+      }
+
+      .footer-btn {
+        margin-right: 165px;
       }
     }
   }

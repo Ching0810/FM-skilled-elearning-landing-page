@@ -41,6 +41,12 @@ Tablet mode (20231009):
 <br/>
 <img src='./srceenshot/Screenshot 2023-10-09 at 15.47.09.png' width=450px>
 
+Desktop mode (20231009):
+<br/>
+<img src='./srceenshot/Screenshot 2023-10-09 at 16.49.14.png' width=550px>
+<br/>
+<img src='./srceenshot/Screenshot 2023-10-09 at 16.49.26.png' width=550px>
+
 
 ### Links
 
@@ -59,25 +65,9 @@ Tablet mode (20231009):
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+1. Follow mobile first principle to finish responsive web design
+2. Utilize grid system to achieve card arrangement
+3. Utilize position system to fix image position
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
