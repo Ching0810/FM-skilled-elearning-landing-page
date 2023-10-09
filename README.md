@@ -1,6 +1,7 @@
 # Frontend Mentor - Skilled e-learning landing page solution
 
-This is a layout practicing project from frontend mentor. Currently finished mobile mode web page, please refer to screenshot section for results.
+This is a layout practicing project from frontend mentor.
+Including mobile, tablet & desktop mode been finished, please refer to [screenshot section](#screenshot) for results.
 
 ## Table of contents
 
